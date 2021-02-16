@@ -7,7 +7,6 @@ export default function addTodoReducer(state = [], action) {
         case 'EDIT_TODO':
             return state.map((el,i) => {
                 if(el.id === action.payload.id) {
-                    console.log(el);
                     el.item = action.payload.item;
                 }
                 return el;
