@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clear-btn{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.clear-btn button{
+  display: inline-block;
+  width: 100%;
+}
+
+.alert-show{
+  display: flex;
+  justify-content: space-between;
+}
+.alert-hidden{
+  display: none;
+}
